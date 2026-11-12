@@ -13,3 +13,7 @@ h1 {
 h2 {
     color: #8B0000;
 }
+
+p {
+    text-align: justify;
+}
