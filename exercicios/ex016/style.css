@@ -14,14 +14,18 @@ main {
     background-color: #F2E9D8;
     padding: 10px;
     margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #8b867ca1;
 }
 
 h1 {
     color: #A60321;
+    text-align: center;
+    text-shadow: 1px 1px 2px #750419de;
 }
 
 h2 {
-    color: #E46E5C;
+    color: #cc2c13;
 }
 
 p {
