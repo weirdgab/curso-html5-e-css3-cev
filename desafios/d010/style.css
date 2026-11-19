@@ -14,14 +14,66 @@ body {
     margin-bottom: 0px;
 }
 
+h1 {
+    padding-top: 10px;
+}
+
+h3 {
+    background-color: #2FA866;
+    color: white;
+    padding: 5px;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #2FA866;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #1A5C38;
+}
+
+iframe {
+    border: 30px solid #296745;
+    width: calc(100% + 40px);
+    box-sizing: border-box;
+    margin: 0 -20px;
+}
+
+p {
+    text-indent: 30px;
+}
+
+ul {
+    list-style-type: symbols();
+}
+
 header {
     background-image: linear-gradient(180deg, #3AD07D,#1A5C38);
     text-align: center;
-    margin: -20px -6px -21px -8px;
+    margin: -20px -7px -21px -8px;
+    padding-bottom: 5px;
+}
+
+header > p {
+    text-indent: 0%;
 }
 
 nav {
     text-align: left;
+}
+
+nav > a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    color: #3AD07D;
 }
 
 main {
@@ -31,44 +83,25 @@ main {
     margin: 0px 100px 15px 100px;
 }
 
-h1 {
-    padding-top: 10px;
-}
-
-section#video {
-    border: 30px;
-    border-color: #296745;
-}
-
-p#inicial {
-    text-indent: 0%;
-}
-
-p {
-    text-indent: 30px;
-}
-
-.principal {
+main > h1, h2 {
     font-family: 'Idroid', Arial, Helvetica, sans-serif;
     color: #296745;
 }
 
-.versoes {
+main > h2 {
     background-image: linear-gradient(45deg, #84E1AD, #FFFFFF);
+    text-indent: 10px;
 }
 
-section#adicional {
+article {
     background-color: #C5EBD6;
     padding-bottom: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
 }
 
-h3 {
-    background-color: #2FA866;
-    color: white;
-    padding: 5px;
-}
-
-section > p {
+article > p {
     padding: 0px 10px 10px 10px;
 }
 
@@ -79,3 +112,10 @@ footer {
     padding: 1px 0px;
 }
 
+section {
+    display: flex;
+}
+
+span {
+    color: #84E1AD;
+}
