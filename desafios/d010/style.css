@@ -46,10 +46,6 @@ p {
     text-indent: 30px;
 }
 
-ul {
-    list-style-type: symbols();
-}
-
 header {
     background-image: linear-gradient(180deg, #3AD07D,#1A5C38);
     text-align: center;
